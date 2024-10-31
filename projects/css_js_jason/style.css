@@ -1,0 +1,62 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+#content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+
+
+.prize-category {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 200px;
+
+}
+
+
+
+.prize-category h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+.prize-category ul{
+    list-style:none;
+    padding: 0;
+}
+
+
+/* here we will style the buttons feel free to change anything you want*/
+
+/*button {}
+
+
+button:hover{ 
+
+
+.prize-car-tegory ul li{
+
+#tableContainer {
+
+
+#tableContainer table {
+
+
+#bioContainer */
+

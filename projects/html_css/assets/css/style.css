@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: 'Valentino';
+    src: url('../font/Spikle.woff') format('woff');
+}
+
+.html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #ede9dd;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+/* Found this thread on how to keep the footer at the botttom of the page: https://forum.freecodecamp.org/t/how-to-keep-footer-at-bottom-of-the-page/651022/9 */
+.main-content {
+    min-height: calc(100vh - 230px);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Navigation Bar */
+
+.logo {
+    position: fixed;
+    font-size: 80px;
+    font-family: Valentino;
+    left: 60px;
+    top: 25px;
+    transition: 1s ease;
+}
+
+.logo:hover {
+    color: chartreuse;
+}
+
+.nav {
+    margin-top: 40px;
+}
+
+/* Used this article on how to create a blur effect as a reference for the navigation bar: https://cloudinary.com/guides/front-end-development/blur-image-css-two-ways-to-blur-images-for-gorgeous-effects#:~:text=CSS%20at%20Scale-,Method%201%3A%20Blurring%20an%20Image%20in%20CSS%20with%20the%20filter,pixels%20merging%20on%20the%20screen. */
+.nav-row{
+    padding: 20px;
+    border-radius: 40px;
+    min-width: 600px;
+    background-color: rgba(100, 100, 100, 0.1);
+    backdrop-filter: blur(30px);
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-row {
+    list-style-type: none;
+}
+
+.nav-row li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-link {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+a:visited {
+    color: black;
+}
+
+.active {
+    font-style: italic;
+}
+
+/* Footer */
+
+.main-footer {
+    margin: 0 80px;
+    height: 170px;
+    position: relative;
+    clear: both;
+}
+
+.footer-left {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    float: left;
+    margin-right: 50px;
+}
+
+.footer-left span {
+    font-size: smaller;
+}
+
+.footer-right {
+    float: right;
+    text-align: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-copyright {
+    display: inline;
+    color: darkgrey;
+    font-size: 10px;
+    letter-spacing: 1px;
+    transition: 1s ease-in-out;
+}
+
+.footer-copyright:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-right i {
+    position: relative;
+    top: 2px;
+}
+
+.green-hover {
+    font-family: Valentino, sans-serif;
+    font-size: 6vw;
+}
+
+.green-hover:hover {
+    color: chartreuse;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Home */
+
+.spacer {
+    height: 180px;
+}
+
+.main-title {
+    display: inline;
+    font-family: Valentino, sans-serif;
+    font-weight: 100;
+    font-size: 8vw;
+    text-transform: uppercase;
+}
+
+.green-exclamation {
+    color: chartreuse;
+    font-weight: bold;
+}
+
+.main-title-box {
+    margin-bottom: 100px;
+}
+
+.box-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.box-content h3 {
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.box-content a {
+    font-weight: 900;
+}
+
+.box-content p {
+    margin-bottom: 10px;
+}
+
+.articles-title {
+    font-family: Valentino, sans-serif;
+    font-size: 4rem;
+    margin: 40px 0 0;
+    text-transform: uppercase;
+}
+
+.main-content .box-content:nth-child(4) {
+    margin: 50px auto;
+}
+
+.line-space {
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.codu-button-box {
+    margin-bottom: 80px;
+}
+
+/* Used this artcile as a reference to create a gradient button to match the design from the website I write for: https://www.shecodes.io/athena/2016-css-gradients-how-to-create-a-button-with-neon-effect and https://codepen.io/pirrera/pen/bqVeGx */
+.codu-button {
+    background-image: linear-gradient(to right, #fb923c 0%, #fb923c 31%, #db2777 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.icon-style {
+    font-size: smaller;
+    transform: rotate(325deg);
+}
+
+/* The underline effect for .cool-link was taken and adapted from this stack overflow thread: https://stackoverflow.com/questions/64444727/how-can-i-make-the-bottom-border-grow-from-the-left-side-and-minimize-to-the-rig */
+.cool-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width 0.5s ease;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+}
+
+/* About */
+
+.box-about {
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-title {
+    font-family: Valentino, sans-serif;
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.about-title span, .about-title img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about-title span {
+    font-size: 10vw;
+    font-weight: 100;
+}
+
+.about-title img {
+    border-radius: 30px;
+    width: 200px;
+    height: 300px;
+}
+
+.about-intro {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.box-about {
+    margin-bottom: 140px;
+}
+
+.box-about p {
+    max-width: 700px;
+    float: right;
+    text-align: justify;
+}
+
+.box-about p:nth-of-type(1) {
+    max-width: 700px;
+    margin-bottom: 80px;
+    text-align: justify;
+    float: left;
+}
+
+.box-about h2 {
+    text-align: center;
+    font-family: Valentino, sans-serif;
+    font-size: 4vw;
+    margin-bottom: 80px;
+}
+
+.box-about ol {
+    text-align: center;
+
+}
+
+.box-about li {
+    margin-bottom: 8px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.table-stack table {
+    width: 100%;
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px dotted #ccc;
+    padding: 10px;
+}
+
+.project-link {
+    font-weight: lighter;
+}
+
+.icon-hover:hover {
+    color: chartreuse;
+}
+
+/* Portfolio */
+
+.project-title {
+    font-family: Valentino, sans-serif;
+    font-weight: 100;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+
+.line-space-project {
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: 5px auto 20px;
+}
+
+.box-project {
+    max-width: 600px;
+    margin: 80px auto 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box-project img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px; 
+    height: auto;  
+    margin-top: 20px;
+    transition: 1s ease;
+}
+
+/* Used this article as a reference to apply a "zoom"effect when hovering: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale */
+.box-project img:hover {
+    transform: scale(0.99);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box-project h2 {
+    font-family: Valentino, sans-serif;
+    font-size: 4vw;
+}
+
+.left-info {
+    float: left;
+    width: 40%;
+}
+
+.right-info {
+    float: right;
+    width: 55%;
+}
+
+.left-info h3 {
+    font-family: Valentino, sans-serif;
+    font-size: 2vw;
+    margin: 5px 0;
+}
+
+.divisor {
+    border: 1px solid black;
+    max-width: 640px;
+    margin: 5px auto 20px;
+}
+
+.github-call {
+    margin-bottom: 80px;
+}
+
+
+/* Gallery */
+
+.gallery-title {
+    font-family: Valentino, sans-serif;
+    font-size: 8vw;
+    margin-bottom: 80px;
+    font-weight: lighter;
+}
+
+.gallery-subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 900px;
+    margin: 0 auto 80px;
+}
+
+.gallery-box {
+    display: block;
+    text-align: center;
+}
+
+.gallery-box img {
+    overflow: hidden;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-title {
+    margin: 80px auto;
+}
+
+video {
+    margin-bottom: 80px;
+}
+
+/* Contact */
+
+.contact-title {
+    font-family: Valentino, sans-serif;
+    font-size: 7vw;
+    margin-bottom: 70px;
+    font-weight: 100;
+}
+
+.contact-text {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+/* Media Queries */
+
+/* 1650px wide and up */
+@media (min-width: 1650px) {
+    .main-title, .gallery-title {
+        font-size: 8rem;
+    }
+
+    .green-hover {
+        font-size: 6rem;
+    }
+   
+    .about-title span {
+        font-size: 10rem;
+    }
+
+    .box-about h2, .project-title, .box-project h2 {
+        font-size: 4rem;
+    }
+
+    .left-info h3 {
+        font-size: 2rem;
+    }
+
+    .contact-title {
+        font-size: 7rem;
+    }
+
+    .contact-text {
+        font-size: 1.5rem;
+    }
+}
+
+/* 1070px wide and down */
+@media (max-width: 1070px) {
+    .footer-right {
+        display: none;
+    }
+
+    .main-footer {
+        text-align: center;
+    }
+
+    .center-footer {
+        text-align: center; 
+    }
+      
+    .footer-left {
+        display: inline-block;
+        float: none;
+        margin: 0;
+    }
+
+    .footer-left p {
+        text-align: center;
+        float: none;
+        margin: 0;
+    }
+
+    .table-stack {
+        margin: 0 10px;
+    }
+}
+
+/* 1025px wide and down */
+  @media (max-width: 1025px) {
+    .line-space {
+        margin: 15px 10px;
+        text-align: justify;
+    }
+
+    .box-content, .main-content .box-content:nth-child(4) {
+        width: 100%;
+    }
+
+    .box-content p {
+        text-align: justify;
+    }
+
+    .logo {
+        position: relative;
+        left: 0;
+    }
+
+    .spacer {
+        max-height: 100px;
+    }
+
+    .main-title-box {
+        margin-bottom: 40px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+  }
+  
+/* 850px wide and down */
+@media (max-width: 850px) {
+
+    .box-content h3 {
+        margin: 10px 10px;
+    }
+
+    .box-content p {
+        margin: 0 10px;
+    }
+
+    .box-content a {
+        margin: 10px;
+    }
+
+    .articles-title {
+        font-size: 7vw;
+    }
+
+    .about-title img {
+        width: 150px;
+        height: auto;
+    }
+
+    .box-about {
+        margin: 0 10px 140px;
+    }
+
+    .box-project h2 {
+        font-size: 2rem;
+    }
+
+    .left-info h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* 650px wide and down */
+@media (max-width: 650px) {
+    .box-project {
+        margin: 80px 10px 20px;
+    }
+
+    .nav-row {
+        min-width: unset;
+        display: block; 
+        text-align: center;
+        width: 30%;
+        position: relative;
+    }
+
+    .nav-row li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        display: block;
+    }
+
+    .table-stack table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .box-about h2 {
+        font-size: 2.5rem;
+    }
+
+    .green-hover {
+        font-size: 1.5rem;
+    }
+    .main-footer {
+        margin: 0;
+    }
+}
