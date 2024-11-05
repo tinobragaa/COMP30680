@@ -50,6 +50,9 @@ function showPrizes(prizes1, laureates1) {
 
             if (laureateeach) {
                 const country = laureateeach.bornCountry || laureateeach.bornCountryCode || "Unknown";
+                if (country === "Unknown") {
+                    continue; // Skip laureates with "Unknown" country
+                }
                 prizeCounts[prize.category] = prizeCounts[prize.category] || {};
                 prizeCounts[prize.category][country] = (prizeCounts[prize.category][country] || 0) + 1;
             }
