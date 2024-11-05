@@ -1,0 +1,28 @@
+.title {
+    font-family: Courier;
+    font-size: large;
+    font-weight: 100;
+}
+
+.center {
+    text-align: center
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+    top: 0;
+}
+
+.table {
+    margin: auto
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table img {
+    width: 100px;
+}
