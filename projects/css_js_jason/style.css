@@ -5,6 +5,14 @@ body{
     margin: 0 40px 40px;
 }
 
+.spacer {
+    width: calc(100% - 80px);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    height: 40px;
+}
+
 .content-container {
     padding-top: 148px;
 }
@@ -28,14 +36,6 @@ h1 {
     background-color: #fff;
     width: calc(100% - 90px);
     z-index: 5;
-}
-
-.spacer {
-    width: calc(100% - 80px);
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    height: 40px;
 }
 
 .title-box, .marquee-box {
@@ -77,23 +77,18 @@ h1 {
     font-weight: 100;
 }
 
-#content, #content2, #contect3 {
+#content {
     display:flex;
-    flex-wrap: wrap;
-    justify-content:center;
+    border-bottom: 5px solid #000;
 }
 
 .prize-category {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    width: 200px;
-
+    border-right: 5px solid #000;
 }
 
 .prize-category h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .prize-category ul{

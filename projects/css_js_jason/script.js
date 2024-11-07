@@ -68,7 +68,7 @@ function showPrizes(prizes1, laureates1) {
         categoryDiv.classList.add('prize-category');
 
         const categoryTitle = document.createElement('h2');
-        categoryTitle.textContent = `Top 5 in ${category}`;
+        categoryTitle.textContent = `${category}`;
         categoryDiv.appendChild(categoryTitle);
 
         const countryList = document.createElement('ul');
