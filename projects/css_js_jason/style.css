@@ -20,16 +20,36 @@ main {
 }
 
 .subtitle {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+/* Used the following article to create the marquee effect: https://stackoverflow.com/questions/45847392/pure-css-continuous-horizontal-text-scroll-without-break */
+.scrolling-text {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    background-color: #000;
-    padding: 10px;
+    padding: 13px 0 10px;
     font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 250s linear infinite;
 }
+
+@keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
 
 .subtitle h2 {
     margin: 0;
+    display: inline-block;
 }
 
 #content, #content2, #contect3 {
