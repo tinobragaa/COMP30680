@@ -5,11 +5,10 @@ body{
     margin: 40px;
 }
 
-
 h1 {
     text-align: center;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     font-family: "Danfo", serif;
     font-size: 3rem;
 }
@@ -63,7 +62,6 @@ main {
     justify-content:center;
 }
 
-
 .prize-category {
     margin: 10px;
     padding: 10px;
@@ -72,36 +70,12 @@ main {
 
 }
 
-
-
 .prize-category h2 {
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-
-
 .prize-category ul{
     list-style:none;
     padding: 0;
 }
-
-
-/* here we will style the buttons feel free to change anything you want*/
-
-/*button {}
-
-
-button:hover{ 
-
-
-.prize-car-tegory ul li{
-
-#tableContainer {
-
-
-#tableContainer table {
-
-
-#bioContainer */
-
