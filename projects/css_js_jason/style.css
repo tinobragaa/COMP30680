@@ -1,25 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Kode+Mono:wght@400..700&display=swap');
 
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 30px;
+    font-family: "Kode Mono", monospace;
+    margin: 40px;
 }
 
 
 h1 {
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
+    font-family: "Danfo", serif;
+    font-size: 3rem;
 }
 
 main {
     border: 3px solid #000;
 }
 
-.title-box, .subtitle {
-    border-bottom: 3px solid #000;
+.title-box, .marquee-box {
+    border-bottom: 5px solid #000;
 }
 
-.subtitle {
+.marquee-box {
     max-width: 100%;
     overflow: hidden;
     background-color: #000;
@@ -29,9 +32,10 @@ main {
 .scrolling-text {
     text-transform: uppercase;
     text-align: center;
+    font-weight: 400;
     color: #fff;
-    padding: 13px 0 10px;
-    font-size: 1rem;
+    padding: 15px 0 10px;
+    font-size: 0.7rem;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
@@ -47,9 +51,10 @@ main {
     }
   }
 
-.subtitle h2 {
+.marquee-box h2 {
     margin: 0;
     display: inline-block;
+    font-weight: 100;
 }
 
 #content, #content2, #contect3 {
