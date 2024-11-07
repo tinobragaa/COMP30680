@@ -2,7 +2,15 @@
 
 body{
     font-family: "Kode Mono", monospace;
-    margin: 40px;
+    margin: 0 40px 40px;
+}
+
+.content-container {
+    padding-top: 148px;
+}
+
+.content-box {
+    border: 5px solid #000;
 }
 
 h1 {
@@ -13,8 +21,21 @@ h1 {
     font-size: 3rem;
 }
 
-main {
-    border: 3px solid #000;
+.title-box {
+    top: 40px;
+    position: fixed;
+    border: 5px solid #000;
+    background-color: #fff;
+    width: calc(100% - 90px);
+    z-index: 5;
+}
+
+.spacer {
+    width: calc(100% - 80px);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    height: 40px;
 }
 
 .title-box, .marquee-box {
