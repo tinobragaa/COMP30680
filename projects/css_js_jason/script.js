@@ -89,6 +89,9 @@ function showLaureatesForCatandCountry(category, country) {
     xhrLaureates.onreadystatechange = function () {
         if (xhrLaureates.readyState === 4 && xhrLaureates.status === 200) {
             const laureates1 = JSON.parse(xhrLaureates.responseText);
+            const content = document.getElementById('content');
+            content.classList.add('bottom-border');
+
             const contentDiv = document.getElementById('content2');
             contentDiv.innerHTML = '';
 

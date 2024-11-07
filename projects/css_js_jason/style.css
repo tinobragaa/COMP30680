@@ -77,13 +77,34 @@ h1 {
     font-weight: 100;
 }
 
+.subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 5px solid #000;
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.subtitle h3 {
+    font-size: 4vw;
+    margin: 0;
+}
+
 #content {
     display:flex;
+}
+
+.bottom-border {
     border-bottom: 5px solid #000;
 }
 
 .prize-category {
     border-right: 5px solid #000;
+}
+
+.prize-category:last-child {
+    border-right: none;
 }
 
 .prize-category h2 {
