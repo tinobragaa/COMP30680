@@ -35,10 +35,10 @@
       "surname": "Lorentz",
       "born": "1853-07-18",
       "died": "1928-02-04",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Arnhem",
-      "diedCountry": "the Netherlands",
+      "diedCountry": "The Netherlands",
       "diedCountryCode": "NL",
       "gender": "male",
       "prizes": [
@@ -51,7 +51,7 @@
             {
               "name": "Leiden University",
               "city": "Leiden",
-              "country": "the Netherlands"
+              "country": "The Netherlands"
             }
           ]
         }
@@ -63,10 +63,10 @@
       "surname": "Zeeman",
       "born": "1865-05-25",
       "died": "1943-10-09",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Zonnemaire",
-      "diedCountry": "the Netherlands",
+      "diedCountry": "The Netherlands",
       "diedCountryCode": "NL",
       "diedCity": "Amsterdam",
       "gender": "male",
@@ -80,7 +80,7 @@
             {
               "name": "Amsterdam University",
               "city": "Amsterdam",
-              "country": "the Netherlands"
+              "country": "The Netherlands"
             }
           ]
         }
@@ -380,10 +380,10 @@
       "surname": "van der Waals",
       "born": "1837-11-23",
       "died": "1923-03-08",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Leiden",
-      "diedCountry": "the Netherlands",
+      "diedCountry": "The Netherlands",
       "diedCountryCode": "NL",
       "diedCity": "Amsterdam",
       "gender": "male",
@@ -397,7 +397,7 @@
             {
               "name": "Amsterdam University",
               "city": "Amsterdam",
-              "country": "the Netherlands"
+              "country": "The Netherlands"
             }
           ]
         }
@@ -467,10 +467,10 @@
       "surname": "Kamerlingh Onnes",
       "born": "1853-09-21",
       "died": "1926-02-21",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Groningen",
-      "diedCountry": "the Netherlands",
+      "diedCountry": "The Netherlands",
       "diedCountryCode": "NL",
       "diedCity": "Leiden",
       "gender": "male",
@@ -484,7 +484,7 @@
             {
               "name": "Leiden University",
               "city": "Leiden",
-              "country": "the Netherlands"
+              "country": "The Netherlands"
             }
           ]
         }
@@ -1681,10 +1681,10 @@
       "surname": "Zernike",
       "born": "1888-07-16",
       "died": "1966-03-10",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Amsterdam",
-      "diedCountry": "the Netherlands",
+      "diedCountry": "The Netherlands",
       "diedCountryCode": "NL",
       "diedCity": "Groningen",
       "gender": "male",
@@ -1698,7 +1698,7 @@
             {
               "name": "Groningen University",
               "city": "Groningen",
-              "country": "the Netherlands"
+              "country": "The Netherlands"
             }
           ]
         }
@@ -3329,7 +3329,7 @@
       "surname": "Bloembergen",
       "born": "1920-03-11",
       "died": "2017-09-05",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Dordrecht",
       "diedCountry": "USA",
@@ -3525,7 +3525,7 @@
       "surname": "van der Meer",
       "born": "1925-11-24",
       "died": "2011-03-04",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "the Hague",
       "diedCountry": "Switzerland",
@@ -4442,7 +4442,7 @@
       "surname": "'t Hooft",
       "born": "1946-07-05",
       "died": "0000-00-00",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Den Helder",
       "gender": "male",
@@ -4456,7 +4456,7 @@
             {
               "name": "Utrecht University",
               "city": "Utrecht",
-              "country": "the Netherlands"
+              "country": "The Netherlands"
             }
           ]
         }
@@ -4468,10 +4468,10 @@
       "surname": "Veltman",
       "born": "1931-06-27",
       "died": "2021-01-04",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Waalwijk",
-      "diedCountry": "the Netherlands",
+      "diedCountry": "The Netherlands",
       "diedCountryCode": "NL",
       "diedCity": "Bilthoven",
       "gender": "male",
@@ -4491,7 +4491,7 @@
       "surname": "van 't Hoff",
       "born": "1852-08-30",
       "died": "1911-03-01",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Rotterdam",
       "diedCountry": "Germany",
@@ -5455,7 +5455,7 @@
       "surname": "Debye",
       "born": "1884-03-24",
       "died": "1966-11-02",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Maastricht",
       "diedCountry": "USA",
@@ -7924,7 +7924,7 @@
       "surname": "Crutzen",
       "born": "1933-12-03",
       "died": "2021-01-28",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Amsterdam",
       "diedCountry": "Germany",
@@ -8899,7 +8899,7 @@
       "bornCountry": "Java, Dutch East Indies (now Indonesia)",
       "bornCountryCode": "ID",
       "bornCity": "Semarang",
-      "diedCountry": "the Netherlands",
+      "diedCountry": "The Netherlands",
       "diedCountryCode": "NL",
       "diedCity": "Leiden",
       "gender": "male",
@@ -8913,7 +8913,7 @@
             {
               "name": "Leiden University",
               "city": "Leiden",
-              "country": "the Netherlands"
+              "country": "The Netherlands"
             }
           ]
         }
@@ -9012,10 +9012,10 @@
       "surname": "Eijkman",
       "born": "1858-08-11",
       "died": "1930-11-05",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Nijkerk",
-      "diedCountry": "the Netherlands",
+      "diedCountry": "The Netherlands",
       "diedCountryCode": "NL",
       "diedCity": "Utrecht",
       "gender": "male",
@@ -9029,7 +9029,7 @@
             {
               "name": "Utrecht University",
               "city": "Utrecht",
-              "country": "the Netherlands"
+              "country": "The Netherlands"
             }
           ]
         }
@@ -11417,7 +11417,7 @@
       "surname": "Tinbergen",
       "born": "1907-04-15",
       "died": "1988-12-21",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "the Hague",
       "diedCountry": "United Kingdom",
@@ -13437,10 +13437,10 @@
       "surname": "Asser",
       "born": "1838-04-28",
       "died": "1913-07-29",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Amsterdam",
-      "diedCountry": "the Netherlands",
+      "diedCountry": "The Netherlands",
       "diedCountryCode": "NL",
       "diedCity": "the Hague",
       "gender": "male",
@@ -17574,10 +17574,10 @@
       "surname": "Tinbergen",
       "born": "1903-04-12",
       "died": "1994-06-09",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "the Hague",
-      "diedCountry": "the Netherlands",
+      "diedCountry": "The Netherlands",
       "diedCountryCode": "NL",
       "diedCity": "the Hague",
       "gender": "male",
@@ -17591,7 +17591,7 @@
             {
               "name": "The Netherlands School of Economics",
               "city": "Rotterdam",
-              "country": "the Netherlands"
+              "country": "The Netherlands"
             }
           ]
         }
@@ -17823,7 +17823,7 @@
       "surname": "Koopmans",
       "born": "1910-08-28",
       "died": "1985-02-26",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "'s Graveland",
       "diedCountry": "USA",
@@ -24054,7 +24054,7 @@
       "surname": "Feringa",
       "born": "1951-05-18",
       "died": "0000-00-00",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Barger-Compascuum",
       "gender": "male",
@@ -24068,7 +24068,7 @@
             {
               "name": "University of Groningen",
               "city": "Groningen",
-              "country": "the Netherlands"
+              "country": "The Netherlands"
             }
           ]
         }
@@ -25785,7 +25785,7 @@
       "surname": "Imbens",
       "born": "1963-09-03",
       "died": "0000-00-00",
-      "bornCountry": "the Netherlands",
+      "bornCountry": "The Netherlands",
       "bornCountryCode": "NL",
       "bornCity": "Geldrop",
       "gender": "male",

@@ -101,6 +101,8 @@ h1 {
 
 .prize-category {
     border-right: 5px solid #000;
+    width: 100%;
+    text-align: center;
 }
 
 .prize-category:last-child {
@@ -115,4 +117,27 @@ h1 {
 .prize-category ul{
     list-style:none;
     padding: 0;
+    margin-bottom: 30px;
 }
+
+.prize-category ul li {
+    margin: 0 5px 15px;
+}
+
+.btn {
+    background-color: #000;
+    color: white;
+    border-radius: 0;
+    border: none;
+    font-family: "Kode Mono", monospace;
+    padding: 3px 5px;
+    margin-top: 5px;
+    border: 1px solid #000; 
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000; 
+}
+

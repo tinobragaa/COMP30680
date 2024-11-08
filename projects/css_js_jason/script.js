@@ -1,13 +1,11 @@
 let prizes, laureates;
 document.addEventListener('DOMContentLoaded', () => {
-    // Load prizes.json using XMLHttpRequest
     const xhrPrizes = new XMLHttpRequest();
     xhrPrizes.open('GET', './prizes.json', true);
     xhrPrizes.onreadystatechange = function () {
         if (xhrPrizes.readyState === 4 && xhrPrizes.status === 200) {
             prizes = JSON.parse(xhrPrizes.responseText);
 
-            // Load laureates.json using XMLHttpRequest
             const xhrLaureates = new XMLHttpRequest();
             xhrLaureates.open('GET', './laureates.json', true);
             xhrLaureates.onreadystatechange = function () {
@@ -51,7 +49,7 @@ function showPrizes(prizes1, laureates1) {
             if (laureateeach) {
                 const country = laureateeach.bornCountry || laureateeach.bornCountryCode || "Unknown";
                 if (country === "Unknown") {
-                    continue; // Skip laureates with "Unknown" country
+                    continue;
                 }
                 prizeCounts[prize.category] = prizeCounts[prize.category] || {};
                 prizeCounts[prize.category][country] = (prizeCounts[prize.category][country] || 0) + 1;
@@ -74,7 +72,7 @@ function showPrizes(prizes1, laureates1) {
         const countryList = document.createElement('ul');
         sortedCountries.forEach(([country, count]) => {
             const listItem = document.createElement('li');
-            listItem.innerHTML = `${country} (${count} prizes) <button onclick="showLaureatesForCatandCountry('${category}', '${country}')">Show Laureates</button>`;
+            listItem.innerHTML = `${country} (${count}) <br/> <button onclick="showLaureatesForCatandCountry('${category}', '${country}')" class="btn">Show Laureates</button>`;
             countryList.appendChild(listItem);
         });
 
