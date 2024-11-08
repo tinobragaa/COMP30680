@@ -72,7 +72,7 @@ function showPrizes(prizes1, laureates1) {
         const countryList = document.createElement('ul');
         sortedCountries.forEach(([country, count]) => {
             const listItem = document.createElement('li');
-            listItem.innerHTML = `${country} (${count}) <br/> <button onclick="showLaureatesForCatandCountry('${category}', '${country}')" class="btn">Show Laureates</button>`;
+            listItem.innerHTML = `${country} (${count}) <br/> <button onclick="showLaureatesForCatandCountry('${category}', '${country}')" class="btn-laureates">Show Laureates</button>`;
             countryList.appendChild(listItem);
         });
 
@@ -124,7 +124,7 @@ function showLaureatesForCatandCountry(category, country) {
                         <td>${laureate.firstname} ${laureate.surname}</td>
                         <td>${laureate.prizes.find(prize => prize.category === category).year}</td>
                         <td>${category}</td>
-                        <td><button onclick="showLaureatesDetails(${laureate.id})" class="btn">Show Details</button></td>
+                        <td><button onclick="showLaureatesDetails(${laureate.id})" class="btn-details">Show Details</button></td>
                     `;
                     tbody.appendChild(row);
                 });
@@ -152,6 +152,7 @@ function showLaureatesDetails(laureateId) {
 
             if (laureate) {
                 const bioDiv = document.createElement('div');
+                bioDiv.classList.add('biography-box')
                 const prize = laureate.prizes[0];
                 const age = prize.year - parseInt(laureate.born.substring(0, 4), 10);
 
