@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function showPrizes(prizes1, laureates1) {
-    const contentDiv = document.getElementById('content');
+    const contentDiv = document.getElementById('countries');
     const prizeCounts = {};
 
     const prizes = Object.entries(prizes1);
@@ -87,13 +87,13 @@ function showLaureatesForCatandCountry(category, country) {
     xhrLaureates.onreadystatechange = function () {
         if (xhrLaureates.readyState === 4 && xhrLaureates.status === 200) {
             const laureates1 = JSON.parse(xhrLaureates.responseText);
-            const content = document.getElementById('content');
+            const content = document.getElementById('countries');
             content.classList.add('bottom-border');
 
-            const contentDiv = document.getElementById('content2');
+            const contentDiv = document.getElementById('laureates');
             contentDiv.innerHTML = '';
 
-            const contentDiv3 = document.getElementById('content3');
+            const contentDiv3 = document.getElementById('biography');
             contentDiv3.innerHTML = '';
 
             const table = document.createElement('table');
@@ -147,7 +147,7 @@ function showLaureatesDetails(laureateId) {
             let la = Object.fromEntries(laureates);
             const laureate = la.laureates.find(l => l.id == laureateId);
 
-            const contentDiv = document.getElementById('content3');
+            const contentDiv = document.getElementById('biography');
             contentDiv.innerHTML = '';
 
             if (laureate) {

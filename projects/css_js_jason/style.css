@@ -102,7 +102,7 @@ h1:hover {
     margin: 0;
 }
 
-#content {
+#countries {
     display:flex;
 }
 
@@ -151,7 +151,7 @@ h1:hover {
     border: 1px solid #000; 
 }
 
-#content2 {
+#laureates {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,7 +182,7 @@ h1:hover {
     color: #000;
 }
 
-#content3 {
+#biography {
     text-align: center;
 }
 
