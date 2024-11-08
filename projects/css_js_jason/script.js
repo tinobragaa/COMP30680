@@ -158,7 +158,7 @@ function showLaureatesDetails(laureateId) {
 
                 bioDiv.innerHTML = `
                     <h2>Biography of ${laureate.firstname} ${laureate.surname}</h2>
-                    <p>${prize.year}, at the age of ${age}, ${laureate.firstname} ${laureate.surname} received a Nobel prize in ${prize.category} in recognition of ${prize.motivation}</p>
+                    <p>${prize.year}, at the age of ${age}, ${laureate.firstname} ${laureate.surname} received a Nobel prize in ${prize.category} in recognition of ${prize.motivation}.</p>
                 `;
                 contentDiv.appendChild(bioDiv);
             } else {

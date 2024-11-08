@@ -5,6 +5,8 @@ body{
     margin: 0 40px 40px;
 }
 
+/* Logo */
+
 .spacer {
     width: calc(100% - 80px);
     background-color: #fff;
@@ -49,6 +51,8 @@ h1:hover {
     z-index: 5;
 }
 
+/* Marquee */
+
 .title-box, .marquee-box {
     border-bottom: 5px solid #000;
 }
@@ -88,6 +92,8 @@ h1:hover {
     font-weight: 100;
 }
 
+/* Subtitle */
+
 .subtitle {
     text-transform: uppercase;
     text-align: center;
@@ -101,6 +107,8 @@ h1:hover {
     font-size: 4vw;
     margin: 0;
 }
+
+/* Countries Section */
 
 #countries {
     display:flex;
@@ -151,6 +159,8 @@ h1:hover {
     border: 1px solid #000; 
 }
 
+/* Laureates Section */
+
 #laureates {
     display: flex;
     justify-content: center;
@@ -182,6 +192,8 @@ h1:hover {
     color: #000;
 }
 
+/* Biography Section */
+
 #biography {
     text-align: center;
 }
@@ -193,6 +205,8 @@ h1:hover {
 .biography-box p {
     margin: 20px;
 }
+
+/* Footer */
 
 .footer-copyright {
     display: inline;
