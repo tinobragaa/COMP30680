@@ -125,8 +125,9 @@ h1 {
 }
 
 .btn {
-    background-color: #000;
-    color: white;
+    
+    background-color: #fff;
+    color: #000;
     border-radius: 0;
     border: none;
     font-family: "Kode Mono", monospace;
@@ -136,8 +137,9 @@ h1 {
 }
 
 .btn:hover {
-    background-color: #fff;
-    color: #000;
+    
+    background-color: #000;
+    color: white;
     border: 1px solid #000; 
 }
 
