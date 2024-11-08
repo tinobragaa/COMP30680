@@ -124,7 +124,7 @@ function showLaureatesForCatandCountry(category, country) {
                         <td>${laureate.firstname} ${laureate.surname}</td>
                         <td>${laureate.prizes.find(prize => prize.category === category).year}</td>
                         <td>${category}</td>
-                        <td><button onclick="showLaureatesDetails(${laureate.id})">Show Details</button></td>
+                        <td><button onclick="showLaureatesDetails(${laureate.id})" class="btn">Show Details</button></td>
                     `;
                     tbody.appendChild(row);
                 });
