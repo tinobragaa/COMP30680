@@ -190,8 +190,11 @@ h1:hover {
     border-top: 5px solid #000;
 }
 
+.biography-box p {
+    margin: 20px;
+}
+
 .footer-copyright {
-    margin: 0 auto;
     display: inline;
     color: darkgrey;
     font-size: 10px;
